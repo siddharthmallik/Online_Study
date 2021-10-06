@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinestudy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Onlinestudy">
+        <activity android:name=".lambda"></activity>
+        <activity android:name=".tuples" />
+        <activity android:name=".introductionPython" />
+        <activity android:name=".androidTesting" />
+        <activity android:name=".kotlin" />
+        <activity android:name=".introductionAndroid" />
+        <activity android:name=".interfacejava" />
+        <activity android:name=".inheritance" />
+        <activity android:name=".introductionjava" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".PricesActivity" />
+        <activity android:name=".FreeTrialActivity" />
+        <activity android:name=".ContactActivity" />
+    </application>
+
+</manifest>
